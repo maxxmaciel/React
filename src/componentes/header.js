@@ -1,4 +1,7 @@
-
+import clinica from "../imagens/logo_desktop.png"
+import face from "../imagens/facebook 1.png"
+import insta from "../imagens/instagram 1.png"
+import wpp from "../imagens/wpp 1.png"
 
 export function Header() {
   return (
@@ -7,11 +10,13 @@ export function Header() {
         <div id="nav-1">
           <input type="text" name="name" placeholder="Pesquisar..." />
           <div >
-      
+      <img src={clinica} />
           </div>
 
           <div id="logos">
-          
+          <img src={face} />
+          <img src={insta} />
+          <img src={wpp} />
           </div>
         </div>
         <div id="nav-2">
