@@ -1,7 +1,7 @@
 import slide from "../imagens/Slide.png";
 
 
-export function Section() {
+export function Section_1() {
     return (
 
         <div className="section_1">
@@ -9,8 +9,8 @@ export function Section() {
                 <img src={slide} />
 
             </div>
-            <a className="fontes_desktop">Nossos Serviços  </a>
-            <div id="caixas">
+            <a className="fontes_desktop_title">Nossos Serviços  </a>
+            <div id="caixas" className="col_desktop">
                 <div id="caixa1" className="caixa"> </div>
                 <div id="caixa2" className="caixa"> </div>
                 <div id="caixa3" className="caixa"> </div>

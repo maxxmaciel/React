@@ -9,33 +9,30 @@
   src: url(Lato/Lato-Regular.ttf);
 }
 
-
 #main-container {
   width: 100%;
   height: auto;
   background-color: #F2F3F6;
+  font-family: 'Lato';
+  margin: auto;
 }
 
 .header {
   height: 222px;
-  width: 100%;
 }
 
 #nav-1 {
   height: 156px;
   font-size: 30px;
-  width: 100%;
   display: flex;
   flex-direction: row;
-  margin: auto;
+
   justify-content: space-around;
 }
-
 
 #nav-2 {
   height: 64px;
   background-color: #252527;
-  width: 100%;
   box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.25);
 }
 
@@ -56,7 +53,6 @@
 }
 
 #nav-1 input::placeholder {
-  font-weight: 400;
   font-size: 25px;
   line-height: 30px;
   color: #8E9299;
@@ -75,8 +71,6 @@ input[type="text"i] {
 }
 
 #nav-2 a {
-  font-family: 'Lato';
-  font-style: normal;
   font-weight: 400;
   font-size: 25px;
   line-height: 30px;
@@ -88,17 +82,13 @@ input[type="text"i] {
 #nav-2 ul {
   display: flex;
   flex-direction: row;
-  margin: auto;
+
   justify-content: space-around;
 }
 
 #nav-2 a:hover {
   color: #E51D1D;
   transition: 2s;
-}
-
-.section_1 {
-  height: auto;
 }
 
 #caixa_clinica {
@@ -113,40 +103,92 @@ input[type="text"i] {
   justify-content: center;
 }
 
-.fontes_desktop {
+.fontes_desktop_title {
   color: rgba(229, 29, 29, 0.99);
   text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
-  font-family: 'Lato';
-  font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 48px;
   display: flex;
   -webkit-text-stroke: #000000 1px;
   justify-content: center;
-
 }
 
 #caixas {
-  width: 1240px;
   display: flex;
-  margin:auto;
-
+  margin: auto;
   flex-wrap: wrap;
-  
 }
 
 .caixa {
-  margin: auto;
   width: 500px;
   height: 470px;
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
-  
 }
 
-#caixa1, #caixa2, #caixa3, #caixa4, #caixa5, #caixa6{
-  float:left;
-  margin-top: 105px;
+#caixa1,
+#caixa2,
+#caixa3,
+#caixa4,
+#caixa5,
+#caixa6 {
+  margin: 100px auto 100px auto;
 }
+
+#caixa1,
+#caixa3,
+#caixa5 {
+  margin-left: 0px;
+}
+
+#caixa2,
+#caixa4,
+#caixa6 {
+  margin-right: 0px;
+}
+
+
+
+.section_2 {
+  background: #F6F6F6;
+  box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.25);
+}
+
+#qm_somos {
+  padding: 33px;
+}
+
+.fontes_textos_desktop {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000;
+}
+
+#textos {
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+#textos p {
+  margin-top: 30px;
+}
+
+.col_desktop {
+  width: 1115px;
+}
+
+#img_clinica{
+  margin: 80px auto;
+}
+
+#textos_mvv p{
+  width: 71%;
+  margin:77px auto;
+  text-align: center;
+}
+
+
