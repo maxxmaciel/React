@@ -6,7 +6,7 @@ import wpp from "../imagens/wpp 1.png"
 export function Header() {
   return (
 
-<div className="header">
+<div className="header ">
         <div id="nav-1">
           <input type="text" name="name" placeholder="Pesquisar..." />
           <div >
@@ -19,7 +19,7 @@ export function Header() {
           <img src={wpp} />
           </div>
         </div>
-        <div id="nav-2">
+        <div id="nav-2" >
           <ul>
             <a>Home</a>
             <a>Serviços </a>

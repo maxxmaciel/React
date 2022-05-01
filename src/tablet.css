@@ -1,0 +1,26 @@
+@media only screen and (max-width:1300px) {
+.col_desktop {
+    width: 87%;
+}
+
+#caixas {
+    flex-direction: column;
+}
+#caixa1, #caixa2, #caixa3, #caixa4, #caixa5, #caixa6 {
+    margin:50px auto;
+}
+
+.fontes_textos_desktop {
+    text-align: center;
+}
+#col1, #col2, #search_contatos input  {
+    width: 90%;
+}
+
+#search_contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+}

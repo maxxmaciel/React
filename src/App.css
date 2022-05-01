@@ -26,7 +26,7 @@
   font-size: 30px;
   display: flex;
   flex-direction: row;
-
+  border: #000 solid 3px;
   justify-content: space-around;
 }
 
@@ -93,9 +93,8 @@ input[type="text"i] {
 
 #caixa_clinica {
   height: 558px;
-  width: 77%;
   background: #F7F0F0;
-  border: 2px solid #000000;
+  border: 3px solid #000000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
   margin: 111px auto;
@@ -120,43 +119,44 @@ input[type="text"i] {
   flex-wrap: wrap;
 }
 
+.caixa a{
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
 .caixa {
   width: 500px;
-  height: 470px;
+  height: 391px;
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
 
-#caixa1,
-#caixa2,
-#caixa3,
-#caixa4,
-#caixa5,
-#caixa6 {
+#caixa1, #caixa2, #caixa3, #caixa4, #caixa5, #caixa6 {
   margin: 100px auto 100px auto;
 }
 
-#caixa1,
-#caixa3,
-#caixa5 {
+#caixa1, #caixa3, #caixa5 {
   margin-left: 0px;
 }
 
-#caixa2,
-#caixa4,
-#caixa6 {
+#caixa2, #caixa4, #caixa6 {
   margin-right: 0px;
 }
 
-
+.section_1 {
+  border-right: #000 solid 3px;
+  border-left: #000 solid 3px;
+  border-top: #000 solid 3px;
+}
 
 .section_2 {
   background: #F6F6F6;
   box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.25);
 }
 
-#qm_somos {
+.title_padding {
   padding: 33px;
 }
 
@@ -179,16 +179,186 @@ input[type="text"i] {
 
 .col_desktop {
   width: 1115px;
+  margin: auto;
 }
 
-#img_clinica{
+#img_clinica {
   margin: 80px auto;
 }
 
-#textos_mvv p{
+#textos_mvv p {
   width: 71%;
-  margin:77px auto;
+  margin: 77px auto;
   text-align: center;
 }
 
+#col1 img, #col2 img {
+  width: 162px;
+}
+
+#col1 {
+  display: flex;
+  justify-content: space-between;
+  width: 1105px;
+  margin: auto;
+  margin-top: 80px;
+  height: auto;
+  list-style-type: none;
+  flex-direction: row;
+}
+
+#col1 li, #col2 li {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#col2 {
+  display: flex;
+  width: 1105px;
+  margin: auto;
+  height: auto;
+  padding: 50px;
+  list-style-type: none;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#col1 li a, #col2 li a {
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #454343;
+  padding-top: 80px;
+
+}
+
+.section_3 {
+  border-right: #000 solid 3px;
+  border-left: #000 solid 3px;
+  height: 2495px;
+}
+
+#search_contatos {
+  margin: auto;
+
+}
+
+#search_contatos input {
+  background: #F6F6F6;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 10px;
+  width: 945px;
+  height: 48px;
+  margin: 16px 0px 40px 0px;
+  outline: none;
+}
+
+.sua_mensagem {
+  height: 338px !important;
+}
+
+#enviar_email {
+  background: #252527;
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 250px;
+  height: 77px;
+  margin: 25px auto;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+}
+
+#enviar_email p {
+  font-size: 40px;
+  color: #fff;
+  -webkit-text-stroke: #fff 2px;
+}
+
+img#img_maps {
+  display: flex;
+  margin: auto;
+  width: 100px;
+  flex-direction: column;
+  margin-top: 232px;
+}
+
+#lado_direito {
+  position: relative;
+  width: 40%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  margin-top: 79px;
+}
+
+iframe {
+  width: 700px;
+  height: 519px;
+}
+
+#endereco {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px !important;
+}
+
+img#contato_img {
+  margin: 87px auto;
+  display: flex;
+  width: 100px;
+}
+.caixa_h {
+  margin: auto;
+  width: 689px;
+  height: 130px;
+}
+
+#caixa_h_1 {
+  float: left;
+  width: 50%;
+  border-right: #000 solid 3px;
+  height: 100%;
+}
+
+#caixa_h_1 a, #caixa_h_2 a {
+font-size: 30px !important;
+line-height: 36px !important;
+}
+
+#caixa_h_2 {
+  float: left;
+  text-align: right;
+  width: 49%;
+}
+
+footer {
+  width: 100%;
+  height: 268px;
+  background-color: #252527;
+  text-align: center;
+  padding-top: 50px;
+  float: left;
+}
+
+footer p {
+  font-size: 24px !important;
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  margin-bottom: 35px;
+  color: #FFFFFF;
+}
 
